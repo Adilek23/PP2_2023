@@ -1,6 +1,6 @@
 def reverseSentence(s):
     s = s.split(" ")
-    l = list(s)
-    l.reverse()
-    for i in l:
+    a = list(s)
+    a.reverse()
+    for i in a:
         print(i, end = ' ')

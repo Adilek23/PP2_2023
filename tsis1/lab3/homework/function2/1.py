@@ -98,9 +98,9 @@ def average_imdb_by_category(movies, category):
     return average_imdb(category_movies)
 
 """ 
- print(is_high_imdb(movies[0])) -> True
+ print(is_high_imdb(movies[0]))  True
  print(high_imdb_movies(movies)) (list)
- print(movies_by_category(movies, "Romance")) -> ['The Choice', 'Colonia', 'Love', 'Bride Wars', 'We Two']
- print(average_imdb(movies)) -> 6.486666666666667
- print(average_imdb_by_category(movies, "Romance")) -> 6.44 
+ print(movies_by_category(movies, "Romance")) = ['The Choice', 'Colonia', 'Love', 'Bride Wars', 'We Two']
+ print(average_imdb(movies)) = 6.486666666666667
+ print(average_imdb_by_category(movies, "Romance")) = 6.44 
 """

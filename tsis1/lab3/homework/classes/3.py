@@ -13,9 +13,9 @@ class Rectangle(Shape):
     def area(self):
         return self.length * self.width
 
-l = int(input())
-w = int(input())
-r = Rectangle(l, w)
-print(r.area())
+a = int(input())
+b = int(input())
+c = Rectangle(a, b)
+print(a.area())
 
 print(Rectangle().area())

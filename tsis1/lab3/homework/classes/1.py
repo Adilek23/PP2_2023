@@ -1,8 +1,8 @@
 class String:
     def getString(self):
-        self.userInput = input()
+        self.input = input()
     def printString(self):   
-        print(self.userInput.upper())
+        print(self.input.upper())
 
 string = String()
 string.getString()
